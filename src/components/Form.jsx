@@ -37,13 +37,15 @@ const Form = () => {
             <label>Message</label>
             <textarea rows="6" placeholder="Type youe message here" name="Message"/>
             <ReCAPTCHA
-    sitekey="6LfuHOAkAAAAAHVAHxtSOkTNhdj72Dla1hQrhMAx"
+    sitekey="6Le1oAYlAAAAACMLhYodsRR8fqBBSaX0t9MPRVh-"
     onChange={onChange}
   />
             <button type="submit" className="btn" onClick={(e) => Submit(e)}>Submit</button>
         </form>
     </div>
   )
+
+  // 6LfuHOAkAAAAAHVAHxtSOkTNhdj72Dla1hQrhMAx
 }
 
 export default Form

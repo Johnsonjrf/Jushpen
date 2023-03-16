@@ -61,6 +61,10 @@ p{
         grid-template-columns: 1fr;
         
     }
+    .footer{
+        padding-bottom: 1rem;
+        padding-top: 1rem;
+    }
     .right, .left{
         text-align: center;
         /* font-size: 16px; */

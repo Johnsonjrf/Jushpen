@@ -17,6 +17,7 @@ const Footer = () => {
         <div className="footer-container">
             <div className="left">
                 <div className="location">
+                    
                     <FaHome size={30} style={{ color: "white", marginRight: "2rem", cursor: "pointer", hover: {color: "yellow"}}} className="homeicon"/>
                     <div>
                         <p>Behind Noble Academy, Off Bukuru Express. Jos</p>
@@ -43,7 +44,9 @@ const Footer = () => {
                 <a href="https://www.linkedin.com/in/ukpen-ushie-a47b6824a"><FaLinkedin size={30} style={{ color: "white", marginRight: "1rem"}}/></a>
                 
                 <a href='https://api.whatsapp.com/send?phone=08087570988'><FaWhatsapp size={30} style={{ color: "white", marginRight: "1rem"}}/></a>
-                <a href='mailto:ukpenushie05@gmail.com'><AiOutlineMail size={30} style={{ color: "white", marginRight: "1rem"}}/></a>
+                <a href='mailto:ukpenushie05@gmail.com'><span className="changecolor">
+                <AiOutlineMail  size={30} style={{ color: "white", marginRight: "1rem"}}/>
+                        </span></a>
                 </div>
             </div>
         </div>
