@@ -1,0 +1,24 @@
+.project-card{
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.prop-img{
+    height: 70%;
+}
+.prop-img img{
+    max-height: 100%;
+}
+.pro-details {
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.sub-propimg{
+    height: 80%;
+}
+.sub-text{
+    height: 20%;
+}

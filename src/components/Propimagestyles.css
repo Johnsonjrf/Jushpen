@@ -1,0 +1,48 @@
+.prop-image{
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    height: 60vh;
+    position: relative;
+}
+.prop-image::before{
+    content: "";
+    background: url("../Images/civil-image4.jpg");
+    background-size: cover;
+    background-position: center top;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.heading{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.prop-image h1{
+    font-size: 2.4rem;
+}
+
+.prop-image p{
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+
+
+@media screen  and (max-width: 640px){
+    .prop-image h1{
+        font-size: 1.5rem;
+    }
+    
+    .prop-image p{
+        font-size: 1.1rem;
+        text-align: center;
+    }
+}
